@@ -103,7 +103,7 @@ tooltip {
 #custom-notifications,
 #custom-power,
 #pulseaudio,
-#custom-spotify,
+/* #custom-spotify, */
 #taskbar,
 #custom-theme,
 #tray,
@@ -126,6 +126,15 @@ tooltip {
     padding-right: 4px;
 }
 
+#custom-spotify {
+    color: @main-fg;
+    background: @main-bg;
+    opacity: 1;
+    margin: 4px 0px 4px 0px;
+    border-radius: 21px 21px 21px 21px;
+    margin-right: 7px;
+    padding-right: 7px;
+}
 #workspaces,
 #taskbar {
     padding: 0px;
